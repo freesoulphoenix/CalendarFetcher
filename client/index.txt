@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy"
+      content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;"/>
+
+  <title>Calendar Fetcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Calendar Fetcher</h1>
+
+    <label for="country">Country</label>
+    <select id="country"></select>
+
+    <label for="year">Year</label>
+    <input id="year" type="number" min="1900" max="3000" value="2026" />
+
+    <div class="row">
+      <button id="btnFetch">Fetch holidays</button>
+      <button id="btnClear" class="ghost">Clear</button>
+    </div>
+
+    <div class="row">
+      <button id="btnCopy">Copy JSON</button>
+      <button id="btnCSV" class="ghost">Export CSV</button>
+    </div>
+
+
+    <label for="style">Style</label>
+	<select id="style">
+  		<option value="grid" selected>Style 1 — Grid</option>
+  	<option value="nogrid">Style 2 — No grid (center dates)</option>
+    </select>
+
+  <div class="row">
+      <button id="btnGenerate">Generate Calendar (12 layers)</button>
+    </div>
+
+
+    <p id="status" class="status"></p>
+    <div id="list" class="list"></div>
+  </div>
+
+  <script src="CSInterface.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
