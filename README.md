@@ -10,7 +10,7 @@ Designed for designers who want print-ready calendars without manual layout pain
     - Grid style: boxed calendar with lines
     - No-grid style: clean, minimalist layout with centered dates
 5. Optional public holiday fetching (via Nager.Date API)
-6. Holiday names are not inside date cells
+6. Holiday names are not inside date cells  
     → displayed only as a legend below each month
 7. Sunday & public holidays in red
 8. Works without holidays (for future years like 2027+)
@@ -37,21 +37,21 @@ calendar-fetcher/
 ## 🚀 Installation
 1. Clone or download the repository
 2. Install as a CEP extension
-Copy the project folder to your CEP extensions directory:
-    macOS
-    ~/Library/Application Support/Adobe/CEP/extensions/
-    Windows
-    C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\
+Copy the project folder to your CEP extensions directory:  
+    macOS  
+    ~/Library/Application Support/Adobe/CEP/extensions/  
+    Windows  
+    C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\  
 You may need to enable unsigned extensions during development.
 
-**🧪 Development Mode (Recommended)**
+## 🧪 Development Mode (Recommended)
 Enable CEP debugging:
-    macOS
-    defaults write com.adobe.CSXS.11 PlayerDebugMode 1
-    Windows
-    [HKEY_CURRENT_USER\Software\Adobe\CSXS.11]
-    "PlayerDebugMode"="1"
-Restart Illustrator afterward.
+    macOS  
+    defaults write com.adobe.CSXS.11 PlayerDebugMode 1  
+    Windows  
+    [HKEY_CURRENT_USER\Software\Adobe\CSXS.11]  
+    "PlayerDebugMode"="1"  
+Restart Illustrator afterward.  
 
 ## 🧭 How to Use
 1. Open Adobe Illustrator
