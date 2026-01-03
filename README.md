@@ -17,16 +17,17 @@ Designed for designers who want print-ready calendars with minimal layout pain.
 
 ## 🧩 Folder Structure
 calendar-fetcher/  
-├─ client/
-│  ├─ index.html        # CEP panel UI  
-│  ├─ index.js          # Panel logic (fetch, UI, CSInterface bridge)  
+├─ client/  
+│  ├─ index.html        
+│  ├─ index.js            
 │  ├─ style.css  
 │  └─ CSInterface.js  
 │  
 ├─ host/  
 │  └─ index.jsx         # Illustrator ExtendScript (calendar generator)  
 │  
-├─ manifest.xml  
+├─ CSXS/  
+│  └─ manifest.xml  
 └─ README.md  
 
 ## 🖥 Requirements
