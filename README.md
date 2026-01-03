@@ -3,17 +3,17 @@ Is a custom Adobe Illustrator CEP extension that generates a full 12-month calen
 Designed for designers who want print-ready calendars without manual layout pain.
 
 **✨ Features**
-▪️ Generate a full year calendar (12 months) in Illustrator
-▪️ 2×6 layout (configurable)
-▪️ Each month is created as a separate top-level layer
-▪️ Two render styles:
+1. Generate a full year calendar (12 months) in Illustrator
+2. 2×6 layout (configurable)
+3. Each month is created as a separate top-level layer
+4. Two render styles:
     - Grid style: boxed calendar with lines
     - No-grid style: clean, minimalist layout with centered dates
-▪️ Optional public holiday fetching (via Nager.Date API)
-▪️ Holiday names are not inside date cells
+5. Optional public holiday fetching (via Nager.Date API)
+6. Holiday names are not inside date cells
     → displayed only as a legend below each month
-▪️ Sunday & public holidays in red
-▪️ Works without holidays (for future years like 2027+)
+7. Sunday & public holidays in red
+8. Works without holidays (for future years like 2027+)
 
 **🧩 Folder Structure**
 calendar-fetcher/
