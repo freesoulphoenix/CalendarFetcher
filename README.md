@@ -39,7 +39,7 @@ calendar-fetcher/
 2. Install as a CEP extension
 Copy the project folder to your CEP extensions directory:  
     macOS  
-    ~/Library/Application Support/Adobe/CEP/extensions/  
+    ~Users/username/Library/Application Support/Adobe/CEP/extensions/  
     Windows  
     C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\  
 You may need to enable unsigned extensions during development.
