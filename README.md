@@ -1,8 +1,8 @@
-**CALENDAR FETCHER**
+# CALENDAR FETCHER
 Is a custom Adobe Illustrator CEP extension that generates a full 12-month calendar layout directly in Illustrator — with optional public holidays, flexible styling, and clean layer structure.
 Designed for designers who want print-ready calendars without manual layout pain.
 
-**✨ Features**
+## ✨ Features
 1. Generate a full year calendar (12 months) in Illustrator
 2. 2×6 layout (configurable)
 3. Each month is created as a separate top-level layer
@@ -15,7 +15,7 @@ Designed for designers who want print-ready calendars without manual layout pain
 7. Sunday & public holidays in red
 8. Works without holidays (for future years like 2027+)
 
-**🧩 Folder Structure**
+## 🧩 Folder Structure
 calendar-fetcher/
 ├─ client/
 │  ├─ index.html        # CEP panel UI
@@ -29,12 +29,12 @@ calendar-fetcher/
 ├─ manifest.xml
 └─ README.md
 
-**🖥 Requirements**
-▪️ Adobe Illustrator (tested with modern CC versions)
-▪️ CEP enabled (standard for Illustrator CC)
-▪️ Internet connection (optional, only for fetching holidays)
+## 🖥 Requirements
+- Adobe Illustrator (tested with modern CC versions)
+- CEP enabled (standard for Illustrator CC)
+- Internet connection (optional, only for fetching holidays)
 
-**🚀 Installation**
+## 🚀 Installation
 1. Clone or download the repository
 2. Install as a CEP extension
 Copy the project folder to your CEP extensions directory:
@@ -53,7 +53,7 @@ Enable CEP debugging:
     "PlayerDebugMode"="1"
 Restart Illustrator afterward.
 
-**🧭 How to Use**
+## 🧭 How to Use
 1. Open Adobe Illustrator
 2. Open the panel:
    Window → Extensions → Calendar Fetcher
@@ -67,8 +67,8 @@ Restart Illustrator afterward.
 🎉 _You’ll get 12 top-level layers, one per month._
 
 
-**🛠 Tech Stack**
-▪️Adobe CEP (HTML / CSS / JS)
-▪️Illustrator ExtendScript (JSX)
-▪️CSInterface bridge
-▪️Nager.Date Public Holiday API
+## 🛠 Tech Stack
+- Adobe CEP (HTML / CSS / JS)
+- Illustrator ExtendScript (JSX)
+- CSInterface bridge
+- Nager.Date Public Holiday API
