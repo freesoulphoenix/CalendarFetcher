@@ -18,16 +18,16 @@ Designed for designers who want print-ready calendars without manual layout pain
 ## 🧩 Folder Structure
 calendar-fetcher/
 ├─ client/
-│  ├─ index.html        # CEP panel UI__
-│  ├─ index.js          # Panel logic (fetch, UI, CSInterface bridge)__
-│  ├─ style.css__
-│  └─ CSInterface.js__
-│
-├─ host/
-│  └─ index.jsx         # Illustrator ExtendScript (calendar generator)
-│
-├─ manifest.xml
-└─ README.md
+│  ├─ index.html        # CEP panel UI  
+│  ├─ index.js          # Panel logic (fetch, UI, CSInterface bridge)  
+│  ├─ style.css  
+│  └─ CSInterface.js  
+│  
+├─ host/  
+│  └─ index.jsx         # Illustrator ExtendScript (calendar generator)  
+│  
+├─ manifest.xml  
+└─ README.md  
 
 ## 🖥 Requirements
 - Adobe Illustrator (tested with modern CC versions)
