@@ -16,7 +16,7 @@ Designed for designers who want print-ready calendars without manual layout pain
 8. Works without holidays (for future years like 2027+)
 
 ## 🧩 Folder Structure
-calendar-fetcher/
+calendar-fetcher/  
 ├─ client/
 │  ├─ index.html        # CEP panel UI  
 │  ├─ index.js          # Panel logic (fetch, UI, CSInterface bridge)  
@@ -45,7 +45,7 @@ Copy the project folder to your CEP extensions directory:
 You may need to enable unsigned extensions during development.
 
 ## 🧪 Development Mode (Recommended)
-Enable CEP debugging:
+Enable CEP debugging:  
     macOS  
     defaults write com.adobe.CSXS.11 PlayerDebugMode 1  
     Windows  
@@ -63,7 +63,7 @@ Restart Illustrator afterward.
     Style:
     Style 1 — Grid
     Style 2 — No grid
-4. Click Generate Calendar
+4. Click Generate Calendar  
 🎉 _You’ll get 12 top-level layers, one per month._
 
 
