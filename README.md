@@ -1,5 +1,5 @@
 # CALENDAR FETCHER
-Is a custom Adobe Illustrator CEP extension that generates a full 12-month calendar layout directly in Illustrator — with optional public holidays, flexible styling, and clean layer structure.
+is a custom Adobe Illustrator CEP extension that generates a full 12-month calendar layout directly in Illustrator — with optional public holidays, flexible styling, and clean layer structure.
 Designed for designers who want print-ready calendars without manual layout pain.
 
 ## ✨ Features
