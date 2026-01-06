@@ -1,0 +1,83 @@
+/* Make CEP UI readable in Illustrator dark panels */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #eaeaea;              /* <-- important */
+  background: transparent;     /* keep panel native */
+}
+
+.wrap {
+  padding: 14px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  color: #f3f3f3;
+  background: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 6px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  color: #f3f3f3;
+  background: #3a3a3a;
+  border: 1px solid #4a4a4a;
+  border-radius: 8px;
+}
+
+button.ghost {
+  opacity: 0.9;
+  background: transparent;
+}
+
+.status {
+  margin: 12px 0 0;
+  font-size: 12px;
+  opacity: 0.9;
+  min-height: 16px;
+}
+
+.list {
+  margin-top: 10px;
+  border-top: 1px solid rgba(255,255,255,.12);
+  padding-top: 10px;
+  max-height: 320px;
+  overflow: auto;
+}
+
+.item {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.item .date { font-weight: 700; }
+.item .meta { font-size: 12px; opacity: .85; }
